@@ -34,6 +34,7 @@ app.use(
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // クッキーや認証情報を含める場合に必要
+    optionsSuccessStatus: 200,
   })
 );
 
