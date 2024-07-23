@@ -27,10 +27,10 @@ catch (err) {
 }
 // CORS設定
 app.use((0, cors_1.default)({
-    origin: "*", // フロントエンドのURL
+    origin: "https://key-chan.vercel.app", // フロントエンドのURLを指定
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
-    credentials: true,
+    credentials: true, // クッキーや認証情報を含める場合に必要
 }));
 app.use(body_parser_1.default.json());
 // ログインAPIの実装
