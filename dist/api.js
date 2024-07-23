@@ -50,7 +50,12 @@ catch (err) {
     console.error("Error loading user data:", err);
 }
 // Expressのミドルウェアの設定
-app.use((0, cors_1.default)());
+app.use((0, cors_1.default)({
+    origin: "https://key-chan-6khg4kux3-hiromotos-projects.vercel.app", // フロントエンドのURLを指定
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
+}));
 app.use(express_1.default.json());
 // ログインAPIの実装
 app.post("/login", (req, res) => {

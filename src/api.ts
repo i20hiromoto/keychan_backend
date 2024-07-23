@@ -30,7 +30,14 @@ try {
 }
 
 // Expressのミドルウェアの設定
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://key-chan-6khg4kux3-hiromotos-projects.vercel.app", // フロントエンドのURLを指定
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 // ログインAPIの実装
