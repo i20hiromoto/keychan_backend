@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "テニス部",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 2,
+    "name": "ソフトテニス部",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 3,
+    "name": "卓球部",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 4,
+    "name": "陸上部",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 5,
+    "name": "野球部",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 6,
+    "name": "第一体育館",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 7,
+    "name": "第二体育館",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 8,
+    "name": "メディアホール",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 9,
+    "name": "CAD室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 10,
+    "name": "工場",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 11,
+    "name": "第一パソコン室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 12,
+    "name": "第二パソコン室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 13,
+    "name": "設計製作室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 14,
+    "name": "IE実験室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 15,
+    "name": "IE電算室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 16,
+    "name": "演習室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 17,
+    "name": "ME研究室9",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 18,
+    "name": "共同研究室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 19,
+    "name": "講義室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 20,
+    "name": "ICT教室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 21,
+    "name": "2スタCW",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 22,
+    "name": "2スタE",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 23,
+    "name": "1スタCWE",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 24,
+    "name": "IEソフトウェア",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 25,
+    "name": "講義室1",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 26,
+    "name": "講義室2",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 27,
+    "name": "講義室3",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 28,
+    "name": "講義室4",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 29,
+    "name": "講義室5",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 30,
+    "name": "講義室6",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 31,
+    "name": "講義室7",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 32,
+    "name": "講義室8",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 33,
+    "name": "地域生涯センター",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 34,
+    "name": "テクノ多目的室",
+    "status": false,
+    "student": ""
+  },
+  {
+    "id": 35,
+    "name": "ラウンジ",
+    "status": false,
+    "student": ""
+  }
+]
