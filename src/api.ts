@@ -27,7 +27,7 @@ try {
 // CORS設定
 app.use(
   cors({
-    origin: "https://key-chan-6khg4kux3-hiromotos-projects.vercel.app", // フロントエンドのURL
+    origin: "*", // フロントエンドのURL
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
