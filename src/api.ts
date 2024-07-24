@@ -30,7 +30,7 @@ app.use((req, res, next) => {
 // CORS設定
 app.use(
   cors({
-    origin: "https://key-chan.vercel.app", // フロントエンドのURLを指定
+    origin: "*", // フロントエンドのURLを指定
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // クッキーや認証情報を含める場合に必要
