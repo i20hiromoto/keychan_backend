@@ -24,9 +24,6 @@ try {
   console.error("Error loading data files:", err);
 }
 
-app.use((req, res, next) => {
-  res.status(404).json({ message: "Endpoint not found" });
-});
 // CORS設定
 app.use(
   cors({
@@ -38,7 +35,6 @@ app.use(
   })
 );
 
-app.options("*", cors());
 app.use(bodyParser.json());
 
 // ログインAPIの実装
@@ -163,6 +159,11 @@ app.get("/api/get/all", (req, res) => {
     console.error("An error occurred:", error);
     res.status(500).json({ message: "Internal Server Error" });
   }
+});
+
+// 404エラーハンドリング
+app.use((req, res) => {
+  res.status(404).json({ message: "Endpoint not found" });
 });
 
 // サーバーの起動
