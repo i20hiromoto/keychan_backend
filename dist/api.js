@@ -25,12 +25,9 @@ try {
 catch (err) {
     console.error("Error loading data files:", err);
 }
-app.use((req, res, next) => {
-    res.status(404).json({ message: "Endpoint not found" });
-});
 // CORS設定
 app.use((0, cors_1.default)({
-    origin: "https://key-chan.vercel.app", // フロントエンドのURLを指定
+    origin: "*", // フロントエンドのURLを指定
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // クッキーや認証情報を含める場合に必要
@@ -155,6 +152,10 @@ app.get("/api/get/all", (req, res) => {
         console.error("An error occurred:", error);
         res.status(500).json({ message: "Internal Server Error" });
     }
+});
+// 404エラーハンドリング
+app.use((req, res) => {
+    res.status(404).json({ message: "Endpoint not found" });
 });
 // サーバーの起動
 app.listen(port, () => {
